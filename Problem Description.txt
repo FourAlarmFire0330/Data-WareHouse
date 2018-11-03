@@ -1,0 +1,15 @@
+
+OpenFlights is a tool that let you map your flights around the world, search and filter them in all
+sorts of interesting ways, calculate statistics automatically, and share your flights and trips with
+friends and the entire world (if you wish). It's also the name of the open-source project to build the
+tool.
+
+Our Open Flights & Travel (OFT) database maintains flights information around the globe for all
+airports and their inbound and outbound routes. The routes and flights are collected from
+OpenFlights website as of January 2012. The database also stores booking transactions for
+passengers during the period 01-01-2006 and 31-12-2009, and the records of membership who
+joined during 01-01-2005 and 31-12-2014.The captured booking transaction data is mainly for
+flights arriving and departing from Australia besides some records for other destinations. The
+database tables can be found at opfl. You can, for example, execute the following query:
+
+select * from opfl.<table_name>;
